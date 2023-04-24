@@ -1,0 +1,29 @@
+Objectives:
+[] Create a classes using JavaScript class syntax and an instance of the class using the new keyword.
+[] Create a class that has properties set by a constructor using the this keyword and methods that return and update property values.
+[] Explain how Object Oriented Analysis and Class Diagrams can be used to represent classes.
+[] Create Node modules that utilize module.exports, require, and import.
+
+Key Questions:
+- Where have we seen the new keyword before?
+  - in the constructor function way of creating an object
+	- we are expanding upon that in this demo by creating a class
+- What is the difference between a class and an object?
+	- a class is a blueprint - it defines the properties and methods that each instance of the class should have
+	- an object is a tangible instance of the class
+- What is the structure to create a class in JavaScript? How do we create an instance of the class (an object)?
+  - class ClassName { constructor (){} and methods}
+	- to create an instance of the class: declare a variable and use the new keyword with the class name of the class that you want to make an instance for
+- REVIEW: What is the constructor method?
+	- this is the method that creates an object and initializes the properties of the object
+- REVIEW: What does the 'this' keyword represent in a class definition?
+	- ‘this’ in a class definition represents the object being created
+- REVIEW: What is the difference between a function and a method?
+	- a function can just be called with its name and the parentheses 
+	- a method is performed on an object - it is called with the object.methodName()
+- What is Object Oriented Analysis? Once we've completed OOA for a program, how can we use diagrams to represent class definitions? 
+	- it is a strategy used in designing the structure of our program - it is how we decide what classes we will need, what objects we will want to use, and how each of our classes and objects will interact with each other
+- What is a module in JavaScript?
+	- a function or a group of similar functions in one file, that is reusable and exportable
+- How do we make sure that our classes and functions can be used in other files throughout our codebase?
+	- exporting with module.exports and importing with require
