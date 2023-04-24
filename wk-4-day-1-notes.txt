@@ -1,8 +1,8 @@
 Objectives:
-[] Create a classes using JavaScript class syntax and an instance of the class using the new keyword.
-[] Create a class that has properties set by a constructor using the this keyword and methods that return and update property values.
-[] Explain how Object Oriented Analysis and Class Diagrams can be used to represent classes.
-[] Create Node modules that utilize module.exports, require, and import.
+[x] Create a classes using JavaScript class syntax and an instance of the class using the new keyword.
+[x] Create a class that has properties set by a constructor using the this keyword and methods that return and update property values.
+[x] Explain how Object Oriented Analysis and Class Diagrams can be used to represent classes.
+[x] Create Node modules that utilize module.exports, require, and import.
 
 Key Questions:
 - Where have we seen the new keyword before?

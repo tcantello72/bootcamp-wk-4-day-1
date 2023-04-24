@@ -1,12 +1,12 @@
 class Person {
-  constructor(name, age, location) {
+  constructor(name, classType, location) {
     this.name = name;
-    this.age = age;
+    this.classType = classType;
     this.location = location || [0, 0];
   }
   
   introduce() {
-    return `Hello, my name is ${this.name} and my age is ${this.age}`
+    return `Hello, my name is ${this.name} and my class is ${this.classType}`
   }
 
   updateX(val) {
@@ -18,17 +18,17 @@ class Person {
   }
 }
 
-// let person1 = new Person('ava', 25, [0, 0]);
+// let person1 = new Person('ava', 'mage', [0, 0]);
 // {
 // name: 'ava',
-// age: 25,
+// classType: 'mage',
 // location: [0, 0]
 // }
 
-// let person2 = new Person('ava', 25);
+// let person2 = new Person('ava', 'mage');
 // {
 // name: 'ava',
-// age: 25,
+// classType: 'mage',
 // location: [0, 0]
 // }
 

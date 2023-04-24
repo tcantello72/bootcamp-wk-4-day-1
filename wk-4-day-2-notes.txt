@@ -1,0 +1,13 @@
+Objectives:
+[] Explain what class inheritance is and how it represented in class diagrams.
+[] Create a subclass from a parent class using the extends keyword and super() method.
+[] Create static methods/properties and call these methods/properties in a program.
+
+Key Questions:
+- REVIEW: What is a class, and what is an object?
+- REVIEW: What is Node?
+- REVIEW: How do we structure the parts of a class diagram?
+- What is inheritance? What benefits does inheritance provide us in object-oriented programming?
+- In a class diagram, how do we represent inheritance?
+- In our code, how do we create a subclass that is inheriting from a parent class? Where does the super() keyword fit in this?
+- What is the difference between a regular method and a static method? Why are static properties/methods important in our classes?
