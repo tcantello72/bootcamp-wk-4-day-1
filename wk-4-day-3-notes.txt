@@ -1,0 +1,11 @@
+Objectives:
+[] Apply private fields into classes and create constructor methods to update these values.
+[] Create getter and setter methods to get and update private fields in a class.
+[] Explain why and how user stories are used as part of the Software Development Lifecycle.
+
+Key Questions:
+- What is the scope of private variables?
+- When might it be important to use a private variable instead of a public variable?
+- How can we access these values in private fields?
+- What is encapsulation? Why is it important in object-oriented programming?
+- What is a user story? How do user stories help us further adapt our mindset as angineers? 
