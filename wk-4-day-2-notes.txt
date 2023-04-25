@@ -1,7 +1,7 @@
 Objectives:
-[] Explain what class inheritance is and how it represented in class diagrams.
-[] Create a subclass from a parent class using the extends keyword and super() method.
-[] Create static methods/properties and call these methods/properties in a program.
+[x] Explain what class inheritance is and how it represented in class diagrams.
+[x] Create a subclass from a parent class using the extends keyword and super() method.
+[x] Create static methods/properties and call these methods/properties in a program.
 
 Key Questions:
 - REVIEW: What is a class, and what is an object?
