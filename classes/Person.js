@@ -1,4 +1,6 @@
 class Person {
+  #health = 100;
+
   constructor(name, classType, location) {
     this.name = name;
     this.classType = classType;
@@ -15,6 +17,16 @@ class Person {
 
   updateY(val) {
     this.location[1] += val;
+  }
+
+  getHealth() {
+    return `${this.#health} hp`;
+  }
+
+  setHealth(newHealth) {
+    if (newHealth < 100) {
+      this.#health = newHealth;
+    }
   }
 }
 

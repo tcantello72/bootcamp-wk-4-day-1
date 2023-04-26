@@ -5,7 +5,16 @@ Objectives:
 
 Key Questions:
 - What is the scope of private variables?
+  - only accessible by the class it's defined in
 - When might it be important to use a private variable instead of a public variable?
+  - sensitive variable that we want restricted access
+  - data that we want controlled way to access or manipulate
 - How can we access these values in private fields?
+  - getter methods - these methods allow for more control over access / modification
+  - and, if we can only change the data using a setter method, we can add more logic there as well, and it gives more control in how the variable can be changed
 - What is encapsulation? Why is it important in object-oriented programming?
-- What is a user story? How do user stories help us further adapt our mindset as angineers? 
+  - encapsulation is a concept in object oriented programming that essentially is about hiding internal implementation details of an object from the outside world and only exposing necessary information.
+	- An object is a self-contained unit with its own data/properties and behavior/methods. Encapsulation lets us control access to these details, and can help protect our objects from unintended effects or misuse.
+- What is a user story? How do user stories help us further adapt our mindset as engineers? 
+  - a user story is an explanation of a software feature or task that is in the perspective of the end user, or the person using the software
+  - user stories help us keep user-oriented mindsets when writing our programs, helps makes our programs more user-friendly and user-accessible, helps us break down problems from the end goal and debug from the end goal, helps us think in the perspective of the user

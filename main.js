@@ -39,6 +39,16 @@ function main() {
   console.log(NPC.NPC_MESSAGE);
 
   console.log(NPC.compareClassType(npc1, person2));
+
+  console.log('PRIVATE VARIABLE EXERCISES BELOW');
+
+  console.log(person2.getHealth());
+
+  person2.setHealth(90);
+  console.log(person2.getHealth());
+
+  person2.setHealth(1623471283764);
+  console.log(person2.getHealth());
 }
 
 main();
