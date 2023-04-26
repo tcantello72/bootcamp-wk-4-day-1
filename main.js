@@ -1,4 +1,6 @@
 const Person = require("./classes/Person.js");
+const Player = require("./classes/Player.js");
+const NPC = require("./classes/NPC.js");
 
 function main() {
   console.log('This is the main function');
@@ -19,6 +21,19 @@ function main() {
   console.log(person2.location);
   person2.updateY(-4);
   console.log(person2.location);
+
+  console.log("Person 3");
+  let person3 = new Player("Bella", "rogue", [1,0], "her claws");
+  console.log(person3.name);
+  console.log(person3.weapon);
+
+  console.log("NPC below");
+  let npc1 = new NPC("bob", "shopkeeper", [0,4]);
+  console.log(NPC.NPC_TOTAL);
+  let npc2 = new NPC("kim", "shopkeeper", [0,5]);
+  console.log(NPC.NPC_TOTAL);
+
+  console.log (NPC.compareClassType(npc1, npc2));
 }
 
 main();
